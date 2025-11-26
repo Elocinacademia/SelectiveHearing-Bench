@@ -20,8 +20,8 @@ Run in selective mode:\
 `python inference_qwen25_omni.py dataset/all_questions_descfilter_bg.json selective`
 
 ## Evaluation
-Evaluate Qwen 2.5 Omni tested under general mode
-`evaluate.py results/qwen25omni_basic_qa.json`
+Evaluate Qwen 2.5 Omni tested under general mode\
+`python evaluate.py results/qwen25omni_basic_qa.json`
 
 ## Train with BPFT
 Qwen2.5-Omni as an example (8 GPU)\
