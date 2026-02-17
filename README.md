@@ -17,6 +17,7 @@ transformers==4.57
 peft==0.15.2
 pip install numpy==1.26.4
 pip install qwen-omni-utils[decord] -U
+pip install soundfile
 ```
 
 ## Preparation
