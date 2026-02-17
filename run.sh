@@ -1,6 +1,3 @@
-pip install numpy==1.26.4
-pip install qwen-omni-utils[decord] -U
-
 torchrun --nproc_per_node=8 --master_port=12346 train.py \
   --model_name_or_path Qwen/Qwen2.5-Omni-7B \
   --dataset dataset/synth_audio_questions_train_filter_train.json \
