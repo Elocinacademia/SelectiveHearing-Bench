@@ -10,6 +10,15 @@ Large audio language models (LALMs) are increasingly deployed in real-world sett
 </div> -->
 
 
+## Dependencies
+```
+torch==2.7.0
+transformers==4.57
+peft==0.15.2
+pip install numpy==1.26.4
+pip install qwen-omni-utils[decord] -U
+```
+
 ## Preparation
 Download data from huggingface. Put data into local dir, e.g. `dataset`\
 
