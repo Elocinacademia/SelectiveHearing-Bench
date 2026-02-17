@@ -3,8 +3,8 @@ pip install qwen-omni-utils[decord] -U
 
 torchrun --nproc_per_node=8 --master_port=12346 train.py \
   --model_name_or_path Qwen/Qwen2.5-Omni-7B \
-  --dataset dataset/synth_audio_questions_train_filter.json \
-  --val_dataset dataset/all_questions_descfilter_bg.json \
+  --dataset dataset/synth_audio_questions_train_filter_train.json \
+  --val_dataset dataset/synth_audio_questions_train_filter_validation.json \
   --output_dir ./qwen25_omni_sft_out \
   --per_device_train_batch_size 1 \
   --gradient_accumulation_steps 1 \
