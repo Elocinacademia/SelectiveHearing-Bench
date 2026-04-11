@@ -21,7 +21,7 @@ pip install soundfile
 ```
 
 ## Preparation
-Download data from huggingface. Put data into local dir, e.g. `dataset`\
+Download data from huggingface (https://huggingface.co/datasets/BrianatCambridge/SelectiveHearingBench). Put data into local dir, e.g. `dataset`\
 
 ## Inference with Qwen2.5-Omni
 Run in general mode:\
